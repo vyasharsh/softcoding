@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: url('../img/hv.jpg') no-repeat center right/cover;
+    height: 114px;
+    margin: auto;
+    border-bottom: 4px solid orangered;
+}
+
+.logo_img img{
+    mix-blend-mode: multiply;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+#nav_bar{
+    margin-top:-86px;
+    margin-right:13px;
+    display:flex;
+    justify-content:flex-end;
+}
+ul{
+    display:flex ;
+    list-style: none;
+}
+
+.nev{
+    text-decoration: none;
+    margin: 20px 20px;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s;
+}
+.current{
+    text-decoration: none;
+    margin: 20px 20px;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: white;
+    border-bottom: 3px orangered solid;
+}
+.nev:hover{
+    border-bottom: 3px orangered solid;
+}
+.pro h1{
+    text-align: center;
+    margin-top: 38px;
+}
+.pro p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 17px;
+}
+.line2{
+    border: 1px solid orangered;
+    width: 85px;
+    margin-left: 637px;
+}
+.main_contain{
+    display: flex;
+}
+.p_img img{
+    height: 279px;
+    width: 400px;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+.ds{
+    background-color:#f4f4f4;
+    height: 279px;
+    width: 840px;
+    border-left: 3px solid orangered ;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.ds h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.ds p{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.award{
+    display:flex;
+}
+.lo{
+    margin-left: 325px;
+    margin-top: 40px;
+    color: orangered;
+    text-align: center;
+}
+.loc p{
+    font-size: 18px;
+    margin-left: 280px;
+    text-align: center;
+}
+.award h2{
+    margin-top: 20px;
+    margin-left: 277px;
+}
+.scroll_contain{
+    margin-top: 40px;
+    height: 307px;
+    width: 100%;
+    background-color: #333;
+}
+.scroll_contain h1{
+    color: white;
+    text-align: center;
+}
+.scroll_contain p{
+    color: white;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.progress{
+    height: 30px;
+    width: 1300px;
+    margin-left: 10px;
+    background-color: #ccc;
+    border-radius: 10px;
+    position: relative;
+}
+.progress .progress_bar{
+    position: absolute;
+    height : 100%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: orangered;
+    animation: mymove 5s forwards;
+}
+
+.progress .progress_bar1{
+    position: absolute;
+    height : 100%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: orangered;
+    animation: mymove1 5s forwards ;
+}
+.progress .progress_bar2{
+    position: absolute;
+    height : 100%;
+    width: 50%;
+    border-radius: 10px;
+    background-color: orangered;
+    animation: mymove2 5s forwards ;
+}
+.progress .progress_bar3{
+    position: absolute;
+    height : 100%;
+    border-radius: 10px;
+    background-color: orangered;
+    animation: mymove3 5s forwards ;
+}
+@keyframes mymove {
+    0%{width:0%;}
+    90%{width:90%;}
+}
+@keyframes mymove1 {
+    0%{width:0%;}
+    80%{width: 80%;}
+}
+@keyframes mymove2 {
+    0%{width:0%;}
+    50%{width: 50%;}
+}
+@keyframes mymove3 {
+    0%{width:0%;}
+    100%{width: 100%;}
+}
+.feedback{
+    display: flex;
+}
+.feed{
+    padding: 10px;
+    margin: 10px;
+    width: 278px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+.feed_img{
+    display: flex;
+}
+.feed_img img{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    margin-left: 39px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.feed_img h6{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+    padding-right: 97px
+}
+.footer{
+    background-color: #333;
+    padding: 40px 0px;
+    margin-top: 160px;
+    display: flex;
+}
+.box1{
+    height: 220px;
+    width: 324px;
+    padding: 13px 72px;
+}
+.box1 h2{
+    margin-left: 5px;
+    margin-top:-26px;
+    color: white;
+}
+.box1 p{
+    color: white;
+    margin-top: 13px;
+}
+.box1 ul{
+    display: block;
+    margin: 5px;
+}
+.box1 a{
+    text-decoration: none;
+    color: white;
+    margin:20px;
+    font-size: 20px;
+    transition: all 1s;
+}
+.box1 a:hover{
+    color: orangered;
+    margin-left:5px;
+}
+.foot_ioc{
+    margin-top: 16px;
+    font-size: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
+.foot_ioc:hover{
+    background-color: orange;
+}
+.foot_contain{
+    margin-top: -152px;
+    margin-left: 406px;
+}
+.foot_contain h2{
+    display: block;
+    margin-left: 558px;
+    font-size: 25px;
+    margin-top: 8px;
+    color: white;
+}
+.con1{
+    
+    margin-left:602px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: white;
+}
+.con{
+    display: inline;
+    margin-left:602px;
+    margin-top: -12px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: white;
+}
+.con:hover{
+    background-color: orange;
+}
+.line1{
+    border: 2px solid orangered;
+    width: 125px;
+    margin-top: 2px;
+}
